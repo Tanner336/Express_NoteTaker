@@ -9,6 +9,7 @@ You will need to install the package.json
 
 ## Problems
 No matter what I did or where I tried to look up the answer I could not find out how to deploy my app on Heroku, I spent hours following the errors and implementing solutions that ultimately failed. 
+The error I see is "cannot find module" but I looked up how to solve this, and uninstalled/reinstalled the module, set the buildpack to nodejs, removed the set buildpack when I got a different error, and changed the package.json to include a "start" and still nothing worked.
 I have attached a screenshot of my error message in the repo. Hopefully someone can help me. as well as the url for my heroku https://agile-crag-06097.herokuapp.com/
 The application and all of the code works perfectly on my local drive. It saves the information taken in and adds it to the db.json file as well as deletes it when hyou hit the trash can button, but I could not get it to deploy on Heroku despite my best efforts.
 I was told in the course that it is better to turn in something rather than nothing and I hope you will be lenient on the grading considering the actual codebase functions and the only thing missing is the heroku deployment.
